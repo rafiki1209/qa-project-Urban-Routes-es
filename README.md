@@ -5,6 +5,24 @@
 
 - C:/usuarios/Dell Laptop/Projects/qa-Urban-Routes-app-es
 
+# DESCRIPCIÓN DEL PROYECTO 
+
+Las pruebas están escritas para comprobar la funcionalidad de Urban Routes.
+
+Se definieron los localizadores y métodos necesarios en las clases helpers, WaitHelpers, UrbanRoutesPage y las pruebas en la clase TestUrbanRoutes.
+
+Se desarrollaron las pruebas automatizadas que cubren el proceso completo de pedir un taxi.
+Las pruebas cubren estas acciones:
+
+- Configurar la dirección
+- Seleccionar la tarifa Comfort
+- Rellenar el número de teléfono
+- Agregar una tarjeta de crédito
+- Se usó la función retrieve_phone_code() que intercepta el código de confirmación requerido para agregar una tarjeta
+- Escribir un mensaje para el conductor
+- Pedir una manta y pañuelos
+- Pedir 2 helados
+
 # CONFIGURACION DEL AMBIENTE
 
 - Python

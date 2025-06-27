@@ -1,0 +1,25 @@
+class WaitHelpers:
+    
+    # se agregó clase y archivo WaitHelpers de acuerdo a revisión de entrega 1
+    
+    from_field = (By.ID,'from')
+    to_field = (By.ID,'to')
+    pedir_taxi_btn = (By.CSS_SELECTOR,'.button round')
+    tarifa = (By.XPATH,'//*[@id="root"]/div/div[3]/div[3]/div[2]/div[1]/div[5]/div[2]')
+    numero_tel = (By.XPATH, '//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[1]/div')
+    phone_field = (By.ID,'phone')
+    phone_code = (By.ID,'code')
+    siguiente_btn = (By.CLASS_NAME,'button full')
+    confirmar_btn = (By.XPATH,'//*[@id="root"]/div/div[1]/div[2]/div[2]/form/div[2]/button[1]')
+    cerrar_code_tel = (By.CSS_SELECTOR,'close-button section-close')
+    cerrar_metodo_de_pago = (By.XPATH,'//*[@id="root"]/div/div[2]/div[2]/div[1]/button')
+    metodo_de_pago = (By.XPATH,'//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]')
+    Efectivo_btn = (By.XPATH,'//*[@id="root"]/div/div[2]/div[2]/div[1]/div[2]/div[1]/div[2])')
+    agregar_card_plus_btn = (By.XPATH,'//*[@id="root"]/div/div[2]/div[2]/div[1]/div[2]/div[3]/div[3]/div/img')
+    agregar_btn = (By.XPATH,'//*[@id="root"]/div/div[2]/div[2]/div[1]/div[2]/div[3]/div[2]')
+    card_numero = (By.ID,'number')
+    code_card_field = (By.ID,'code')
+    comment_driver = (By.ID,'comment') 
+    sw-manta-pañuelos =(By.XPATH,'//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]/div[1]/div/div[2]/div/span')
+    helados_counter = (By.XPATH,'//*[@id="root"]/div/div[3]/div[3]/div[2]/div[2]/div[4]/div[2]/div[3]/div/div[2]/div[1]/div/div[2]/div/div[3]')
+    reservar_btn = (By.CSS_SELECTOR,'.smart-button-secondary')
