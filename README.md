@@ -40,7 +40,7 @@ Las pruebas cubren estas acciones:
 
 # EJECUCIÓN DE PRUEBAS 
 
-- 1. Ejecutar desde Git Bash con Pytest el archivo main.py
+- 1. Se utiliza el comando pytest projects/qa-project-Urban-Routes-es/TestUrbanRoutesPage.py en la terminal
 - 2. Actualizar el URL en el archivo data.py
 
 
